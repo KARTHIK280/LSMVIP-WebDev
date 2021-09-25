@@ -1,0 +1,135 @@
+ .container{
+     margin:0px;
+     text-align: center;
+     background-color: rgb(21, 21, 22);
+     height:100vh;
+     width:100%;
+      
+
+ }
+ .first{
+     position: relative;
+     height:45px;
+     width: 100%;top:-20px;
+     background-color:orangered;
+    
+ }
+
+ h2{
+      position:relative;
+      padding: 7px ;
+      margin-right: 200vh;
+    color:black;
+  }
+
+
+  button{
+    float: right;
+    background-color:rgb(43, 43, 216);
+    color: white;
+    border: 2px;
+    padding: 15px;
+    width: 10%;
+    margin-top:-65px;
+    border-radius:5%;
+    }
+    
+    button:hover{
+        background-color:rgb(10, 121, 248);
+        color: white;
+     
+    }
+ h4{  
+            position: relative;
+            margin-right: -125vh;
+            color:black;
+            top: -55px;
+        
+          }
+          .blink{
+            animation: blink 1s infinite;
+          }
+    @keyframes blink{
+      0%{opacity :1;}
+      50%{opacity:0;}
+      100%{opacity:1;}
+      
+
+    }
+  
+  .nav-bar{
+    color: aqua;
+  }
+  
+ 
+ .second{
+     position: relative;
+ 
+     top:50px;
+
+ }
+ .main-sec{
+     width:initial;
+     margin: 0px auto;
+     background-color: rgb(235, 17, 53);
+
+ }
+
+  
+  img{
+      position: relative;
+      top:10px;
+  border-radius: 50%;
+  }
+.users{
+      position: relative;
+     
+      background-color: lawngreen;
+      
+      top:10px;
+      width:15%;
+      height:35%;
+      text-align: center;
+      border-radius: 20px;
+      margin:10px 660px;
+      
+     
+
+     }
+     .users:hover{
+      background-color:rgb(10, 121, 248);
+       color: white;
+       box-shadow: black;
+      -webkit-transform:scale(1.1) ;
+      
+       
+}
+  
+  h3{
+      color:red;
+
+  }
+
+  p{
+      color:black;
+
+  }
+  
+  
+  .center-align{
+  width: 1000px;
+  margin: 0px auto;
+  }
+  
+  .profile-cont{
+  padding-top: 15px;
+  margin: 5px;
+  width: 320px;
+  display: inline-block;
+  height: 260px;
+  text-align: center;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
